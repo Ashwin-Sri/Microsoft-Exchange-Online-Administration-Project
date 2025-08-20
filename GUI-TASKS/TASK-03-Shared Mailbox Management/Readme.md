@@ -1,5 +1,11 @@
 # Task 03 – Shared Mailbox Management
 
+## Shared Mailbox
+
+A Shared Mailbox in Microsoft 365 (Exchange Online) is a mailbox that multiple users can access to send and receive emails from a common address. It allows a team or group to manage emails collectively without needing to create separate user accounts.
+
+---
+
 ## Objective
 Configure and validate **Shared Mailboxes** in Exchange Online using the Exchange Admin Center (EAC).  
 Covers mailbox creation, permission assignment, access validation, and mail flow testing.
@@ -31,14 +37,6 @@ Covers mailbox creation, permission assignment, access validation, and mail flow
 | Full Access permissions  | ✅ Delegated user opened mailbox in OWA |
 | Send As functionality    | ✅ Delegated user sent email as shared mailbox |
 | Mail flow test           | ✅ Emails received in shared mailbox without issue |
-
----
-
-## Role & Licensing Notes
-
-- **Role Required**: Exchange Admin or Global Admin  
-- **License Used**: Shared mailboxes don’t require a license under 50 GB storage, but delegated users need licensed mailboxes.  
-- **Excluded Scenarios**: Migration from user mailbox to shared mailbox, hybrid mail flow  
 
 ---
 
